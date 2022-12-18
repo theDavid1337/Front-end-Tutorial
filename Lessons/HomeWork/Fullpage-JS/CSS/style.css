@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    scroll-snap-align: start;
+}
+
+.one {
+    background: rgb(36, 164, 138);
+}
+
+.two {
+    background: rgb(211, 79, 79);
+}
+
+.three {
+    background: rgb(67, 91, 175);
+}
+
+.four {
+    background: lightsalmon;
+}

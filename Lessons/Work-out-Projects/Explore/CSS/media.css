@@ -1,0 +1,84 @@
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1000px) {
+    .toggleMenu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .toggleMenu2 {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section p br {
+        display: none;
+    }
+
+    section p {
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .toggleMenu3 {
+        display: none;
+    }
+
+    .big {
+        font-size: 48px;
+    }
+
+    .section-btn {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 16px;
+        color: #1F3347;
+        padding: 8px 25px;
+        background: var(--white-main);
+        border-radius: 4px;
+        margin-left: 20px;
+        cursor: pointer;
+        transition: all 0.1s ease;
+    }
+
+    .header-btn {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 16px;
+        color: #1F3347;
+        padding: 8px 25px;
+        background: #FFC814;
+        border-radius: 4px;
+        margin-left: 20px;
+        cursor: pointer;
+        transition: all 0.1s ease;
+    }
+    .small {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .menu li a {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,112 @@
+.phoneNumber {
+    width: 30%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    animation: phoneNumber 4s alternate 3s infinite ease;
+}
+
+.dailyWork {
+    width: 20%;
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    animation: dailyWork 2s alternate 3s infinite ease;
+}
+
+.teamMembers {
+    width: 20%;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    animation: teamMembers 1.5s alternate 3s infinite ease;
+}
+
+@keyframes phoneNumber {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    25% {
+        transform: rotateY(20deg);
+
+    }
+
+    50% {
+        transform: rotateX(20deg);
+
+    }
+
+    75% {
+        transform: rotateY(-20deg);
+
+    }
+
+    100% {
+        transform: rotateZ(10deg);
+
+    }
+}
+
+
+@keyframes dailyWork {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    25% {
+        transform: rotateY(20deg);
+
+    }
+
+    50% {
+        transform: rotateX(20deg);
+
+    }
+
+    75% {
+        transform: rotateY(-20deg);
+
+    }
+
+    100% {
+        transform: rotateZ(10deg);
+
+    }
+}
+
+
+
+@keyframes teamMembers {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    25% {
+        transform: rotateY(20deg);
+
+    }
+
+    50% {
+        transform: rotateX(20deg);
+
+    }
+
+    75% {
+        transform: rotateY(-20deg);
+
+    }
+
+    100% {
+        transform: rotateZ(10deg);
+
+    }
+}
+
+button:active {
+    transform: scale(0.8);
+}
+
+.footer_Item a:hover {
+    opacity: 1;
+}

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Regular';
+    src: url('../Font/ReadexPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url('../Font/ReadexPro-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Semibold';
+    src: url('../Font/ReadexPro-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('../Font/ReadexPro-Bold.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+:root {
+    /* color */
+    --main-yellow: #FFCB45;
+    --main-yellow-opacity: #F28B42;
+    --main-black: #1D1D1D;
+    --main-gray: #1d1d1db3;
+    /* font-sizes */
+    --display: 48px;
+    --header: 32px;
+    --titleFirst: 28px;
+    --titleSecond: 16px;
+    --headline: 20px;
+    --body: 18px;
+    --button: 14px;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px 0;
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_link {
+    font-family: 'Regular';
+    font-size: var(--titleSecond);
+    color: var(--main-gray);
+    transition: all .3s ease;
+}
+
+.nav_link.active {
+    transition: all .3s ease;
+    color: var(--main-black);
+}
+
+.nav_link:hover {
+    transition: all .3s ease;
+    color: var(--main-black);
+}

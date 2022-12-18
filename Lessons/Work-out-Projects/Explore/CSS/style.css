@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --yellow: #FFC814;
+    --font-color: #1F3347;
+    --white-main: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 1%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('../img/header-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 2%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.menu li a {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--white-main);
+}
+
+.logo {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.header-btn {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    color: #1F3347;
+    padding: 15px 45px;
+    background: #FFC814;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.header-btn:active {
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+}
+
+.big {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin: 5vh 0 15px 0;
+}
+
+.small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 15px 0;
+}
+
+.section-btn {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    color: #1F3347;
+    padding: 15px 45px;
+    background: var(--white-main);
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.section-btn:active {
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+}

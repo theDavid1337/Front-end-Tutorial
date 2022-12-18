@@ -1,0 +1,15 @@
+#work {
+    width: 25px;
+    height: 25px;
+    background: transparent !important;
+    position: absolute;
+    top: 820px;
+}
+
+#clinic {
+    width: 25px;
+    height: 25px;
+    background: transparent !important;
+    position: absolute;
+    top: 1420px;
+}
