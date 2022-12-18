@@ -514,6 +514,7 @@ a {
     border-radius: 10px;
     color: var(--main-white);
     margin-top: 20px;
+    cursor: pointer;
 }
 
 /* END post_form.html */
