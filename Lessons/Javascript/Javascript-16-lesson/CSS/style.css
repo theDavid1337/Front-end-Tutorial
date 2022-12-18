@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    border: none;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 1%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px 20px;
+    background: #1abe;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 0px 10px;
+}
+
+[name^='circle'] {
+    border-radius: 50%;
+}
+
+li {
+    display: inline;
+    font-size: 48px;
+}

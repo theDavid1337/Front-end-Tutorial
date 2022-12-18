@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1400px;
+    height: 100vh;
+    padding: 0 1%;
+    gap: 20px;
+}
+
+[class^='box_'] {
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+
+[name^='toggle'] {
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+
+[name^='green'] {
+    background: green !important;
+}
+
+.green {
+    background: green;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    margin-top: 20px;
+    cursor: pointer;
+}

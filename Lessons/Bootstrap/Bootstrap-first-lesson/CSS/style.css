@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    font-family: fantasy;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #1abe;
+}
+
+section {
+    margin: 20px 0px 30px 0px;
+}
+
+.container {
+    padding: 0 1%;
+}
+
+.banner-block {
+    width: 100%;
+    min-height: 400px;
+    background: #1abe;
+}
+
+center {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.post {
+    min-width: 380px;
+    min-height: 350px;
+    background: #f45;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    flex-wrap: wrap;
+}
+
+.text {
+    min-width: 550px;
+    min-height: 500px;
+    background: #1abe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.image {
+    min-width: 550px;
+    min-height: 500px;
+    background: #1abe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.footer-content {
+    width: 100%;
+    height: 100px;
+    background: #f45;
+}
+
+@media screen and (max-width: 550px) {
+
+    .post {
+        min-width: 270px;
+    }
+
+    .text,
+    .image,
+    center {
+        font-size: 2em;
+    }
+
+    .image,
+    .text {
+        min-width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .image,
+    .text {
+        min-width: 250px;
+    }
+}
