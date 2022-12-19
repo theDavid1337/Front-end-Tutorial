@@ -1,0 +1,21 @@
+{
+    "products": [{
+            "name": "Nike Air Max",
+            "image": "./img/image.png",
+            "price": 3.50,
+            "qty": 1
+        },
+        {
+            "name": "Adidas Air Max",
+            "image": "./img/image.png",
+            "price": 9.50,
+            "qty": 1
+        },
+        {
+            "name": "Puma Air Max",
+            "image": "./img/image.png",
+            "price": 7.50,
+            "qty": 1
+        }
+    ]
+}
