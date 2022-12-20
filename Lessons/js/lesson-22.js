@@ -54,3 +54,10 @@
 
 // console.log(true);
 // console.log('' ? 'true' : 'false');
+
+
+// const apple = 'apple';
+// apple = '' // TypeError
+
+// console.log(true - 1 + 10 < 5);
+
