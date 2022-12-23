@@ -1,3 +1,22 @@
+// TASK 2
+
+// function checkChess(user_prompt) {
+//     let result_black = 0
+//     let arrWhite = ['a2', 'a4', 'a6', 'a8', 'b1', 'b3', 'b5', 'b7', 'c2', 'c4', 'c6', 'c8', 'd1', 'd3', 'd5', 'd7', 'e2', 'e4', 'e6', 'e8', 'f1', 'f3', 'f5', 'f7', 'g2', 'g4', 'g6', 'g8', 'h1', 'h3', 'h5', 'h7']
+//     arrWhite.forEach(elem => {
+//         if (user_prompt == elem) {} else {
+//             console.log(result_black);
+//         }
+//     })
+//     if (arrWhite.length - result_black == 1) {
+//         console.log('White');
+//     } else {
+//         console.log('Black');
+//     }
+// }
+// checkChess('a2')
+
+
 // TASK 3
 
 // for (let i = 1; i < 90; i++) {
@@ -96,10 +115,23 @@
 // }
 
 
+
 // TASK 12
 
-// let param = prompt("Enter smth..")
-// ?????????????????????????????????
+// function checkChars(inputText) {
+//     let arr = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm'];
+//     let helper = '';
+//     arr.forEach(letter => {
+//         for (let i = 0; i < inputText.length; i++) {
+//             if (inputText[i] == letter) {
+//                 helper += inputText[i]
+//             }
+//         }
+//     })
+//     console.log(helper)
+// }
+
+// checkChars(prompt('text....'))
 
 
 // TASK 13
@@ -148,3 +180,27 @@
 // } else {
 //     console.log(`user is bigger than 100 or smaller than 0`);
 // }
+
+
+// TASK 15
+
+
+// function checkClasses(pass) {
+//     if (pass >= 60 || pass <= 120) {
+//         let some_percent = Math.round(pass * 0.03)
+//         pass = pass - some_percent
+//         console.log(`${pass} - Primary Class Tickets Solded - ${pass * 120000} - Earned\n${some_percent} - Business Class Tickets Solded - ${some_percent * 380000} - Earned`);
+//     }
+// }
+
+// checkClasses(100)
+
+// let hello;
+// console.log(1 / 0); 
+// console.log(0 / 0); NaN
+
+
+// console.log(false || false - 2 || "" || true);
+// console.log(true || false);
+// console.log(false || true + 1);
+// console.log(false && true);
