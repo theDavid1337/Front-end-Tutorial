@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/media.css">
     <title>YtYt | © Hasanboy Zafarov</title>
@@ -24,27 +27,43 @@
                     <li class="nav_item"><a href="#">Контакты</a></li>
                 </ul>
                 <ul class="log_in">
-                    <li class="log_in_item"><a class="log_in_item-reg" href="#">Регистрация</a></li>
+                    <li class="log_in_item-reg_wrapper"><a class="log_in_item-reg" href="#">Регистрация</a></li>
                     <li class="log_in_item"><button class="log_in_item-btn">Войти</button></li>
                 </ul>
-                <div class="burger"></div>
+                <div class="burger">
+                    <i class="fa-solid fa-bars burger_bars" onclick="toggleMenu()"></i>
+                </div>
             </div>
-            <!-- <div class="header_section">
-                <div class="header_section_left">
-                    <p class="section_first_heading">Школа <span>{</span>программирования<span>}</span><br>для тех, кому
+
+        </div>
+    </header>
+    <section class="section_first">
+        <div class="container">
+            <div class="section_first_wrapper">
+                <div class="section_first_left">
+                    <p class="section_first_heading">Школа
+                        <span>{</span><i>программирования</i><span>}</span><br>для
+                        тех, кому
                         нужны <br> реальные навыки, <br>
                         a не просто сертификат</p>
                     <div class="line"></div>
-                    <p class="section_first_content">Пройдите тестирование, чтобы получить доступ <br> к бесплатным вводным
+                    <p class="section_first_content">Пройдите тестирование, чтобы получить доступ <br> к бесплатным
+                        вводным
                         урокам</p>
-                    <button></button>
+                    <button class="section_first_btn">Пройти тестирование</button>
                 </div>
-                <div class="header_section_right">
+                <div class="section_first_right">
                     <img src="./img/section-first.svg" alt="img">
                 </div>
-            </div> -->
+            </div>
+            <div class="scroll_arrow_wrapper">
+                <div class="arrow_circle" onclick="clientScroll()">
+                    <i class="fa-solid fas fa-long-arrow-alt-down arrow_circle_icon"></i>
+                </div>
+            </div>
         </div>
-    </header>
+    </section>
+    <div class="scrolling_line"></div>
     <script src="./JS/main.js"></script>
 </body>
 
