@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/media.css">
     <title>YtYt | © Hasanboy Zafarov</title>
@@ -34,7 +34,6 @@
                     <i class="fa-solid fa-bars burger_bars" onclick="toggleMenu()"></i>
                 </div>
             </div>
-
         </div>
     </header>
     <section class="section_first">
@@ -57,14 +56,125 @@
                 </div>
             </div>
             <div class="scroll_arrow_wrapper">
-                <div class="arrow_circle" onclick="clientScroll()">
-                    <i class="fa-solid fas fa-long-arrow-alt-down arrow_circle_icon"></i>
+                <div class="arrow_circle">
+                    <img src="./img/arrow-down.svg" alt="img" class="arrow_circle_icon arrow_circle_icon_top"
+                        onclick="clientScroll()">
+                    <img src="./img/arrow-down.svg" alt="img" class="arrow_circle_icon arrow_circle_icon_bottom"
+                        onclick="clientScroll()">
                 </div>
             </div>
         </div>
     </section>
+    <section class="section_second">
+        <div class="container">
+            <p class="section_main_heading">
+                Какие технологии вы изучите:
+            </p>
+            <div class="section_second_wrapper">
+                <div class="section_second_left">
+                    <img src="./img/section-second.svg" alt="img">
+                </div>
+                <div class="section_second_right">
+                    <div class="tag_wrapper">
+                        <div class="section_second_tags">Язык программирования Python</div>
+                        <div class="section_second_tags">Сети</div>
+                        <div class="section_second_tags">Базы данных</div>
+                        <div class="section_second_tags">Фреймворки Flask и Django</div>
+                        <div class="section_second_tags">Отладка и тестирование</div>
+                        <div class="section_second_tags">Docker</div>
+                        <div class="section_second_tags">Git</div>
+                    </div>
+                    <p class="second_right_bottom">Это необходимый минимум для современного backend-разработчика*</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_third">
+        <div class="container">
+            <p class="section_main_heading">
+                Обучение в YtYt - это <br> удобно и результативно
+            </p>
+            <div class="swiper">
+                <div class="section_third_wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <img src="./img/coding.svg" alt="img" class="card_img">
+                        <p class="card_heading">Огромное <br> количество практики</p>
+                        <p class="card_content">Более 500 самостоятельных <br> заданий и 20 полноценных <br> больших
+                            проектов</p>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="./img/universe.svg" alt="img" class="card_img">
+                        <p class="card_heading">Современные <br> методики обучения</p>
+                        <p class="card_content">Спиральное обучение: <br>
+                            погружаемся в материал <br> постепенно, виток за витком</p>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="./img/pc.svg" alt="img" class="card_img">
+                        <p class="card_heading">Простое и понятное <br> изложение</p>
+                        <p class="card_content">Вместо заумных <br> терминов - примеры <br> из реального мира</p>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="./img/calendar.svg" alt="img" class="card_img">
+                        <p class="card_heading">Гибкий график <br> занятий</p>
+                        <p class="card_content">Учитесь в любое <br> время в удобном <br>
+                            для вас темпе</p>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="./img/message.svg" alt="img" class="card_img">
+                        <p class="card_heading">Прямая связь с опытными <br> программистами</p>
+                        <p class="card_content">Задавайте вопросы <br>
+                            и отправляйте свой код <br> на проверку</p>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="./img/rubl.svg" alt="img" class="card_img">
+                        <p class="card_heading">Оплата небольшими <br> частями</p>
+                        <p class="card_content">Платите только за тот материал, <br> который сейчас изучаете,<br>
+                            a не за весь курс сразу</p>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="./img/phone-card.svg" alt="img" class="card_img">
+                        <p class="card_heading">Быстрый и легкий <br> возврат</p>
+                        <p class="card_content">Если передумаете учиться - <br>
+                            вернем деньги за 3 <br> рабочих дня</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_fourth">
+        <div class="container">
+            <div class="section_fourth_wrapper">
+                <p class="section_main_heading">
+                    Как происходит обучение на YtYt?
+                </p>
+                <p class="section_fourth_content">
+                    Обучение должно быть комфортным. Поэтому мы разработали собственную <br> платформу для обучения
+                    программированию. На ней вы можете не только изучать <br> теорию, но и запускать готовые примеры и
+                    даже
+                    писать свой собственный код.
+                </p>
+                <div class="section_fourth_video_wrapper">
+                    <div class="video_btn_circle" onclick="videoFunc()">
+                        <i class="bi bi-caret-right-fill video_btn_circle_play"></i>
+                    </div>
+                    <p class="video_content">Посмотреть видео</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_fifth">
+        <div class="container">
+            <div class="section_fifth_wrapper">
+                
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
     <div class="scrolling_line"></div>
     <script src="./JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./JS/swiper.js"></script>
 </body>
 
 </html>
