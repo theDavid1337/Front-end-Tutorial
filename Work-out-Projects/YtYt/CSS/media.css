@@ -174,4 +174,8 @@
         cursor: pointer;
         margin-top: 20px;
     }
+
+    .option_content br {
+        display: none;
+    }
 }

@@ -180,7 +180,7 @@ header.active {
 .line {
     width: 100%;
     height: 0.5px;
-    background: var(--color-line) !important;
+    background: var(--color-grey) !important;
     margin: 25px 0;
 }
 
@@ -334,6 +334,10 @@ header.active {
     cursor: grab;
 }
 
+.card br {
+    display: none;
+}
+
 .card_heading {
     font-weight: 900;
     font-size: var(--size-small);
@@ -406,9 +410,6 @@ header.active {
     color: var(--color-white);
 }
 
-
-
-
 @keyframes video {
     0% {
         outline: 20px solid var(--color-orange-alfa);
@@ -433,4 +434,42 @@ header.active {
     100% {
         outline: 10px solid var(--color-orange-alfa);
     }
+}
+
+.swiper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_fifth_wrapper {
+    width: 90%;
+    background: var(--color-white);
+    height: auto;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.option {
+    width: 33%;
+    height: auto;
+    padding: 10px;
+    border-right: 1px solid var(--color-orange);
+}
+
+.option_heading {
+    color: var(--color-black);
+    font-size: var(--size-small);
+    font-weight: 900;
+}
+
+.option_heading span {
+    color: var(--color-blue);
+    font-size: var(--size-big-heading);
+}
+
+.option_content {
+    color: var(--color-black);
+    font-size: var(--size-content);
+    margin: 15px 0;
 }
