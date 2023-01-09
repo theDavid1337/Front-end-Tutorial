@@ -82,7 +82,7 @@
 //         counterWater++
 //     }
 // }
-// console.log(`${counterBanana} - Banana\n${counterWater} - Water`);
+// console.log(`${n} - KM\n${counterBanana} - Banana\n${counterWater} - Water`);
 
 // task 10
 // let control = true
@@ -142,17 +142,18 @@
 //         let randomY = Math.round(Math.random() * 20)
 //         French.push(randomY)
 //     }
-
+// 
 //     Belgia.forEach(playerX => {
 //         if (playerX % 2 !== 0) {
 //             counterBelgia++
 //         }
 //     })
-
+// 
 //     French.forEach(playerY => {
 //         if (playerY % 2 !== 0) {
 //             counterFrench++
 //         }
+// 
 //     })
 //     if (counterBelgia > counterFrench) {
 //         return `Winner Belgia\nGols - ${counterBelgia}`
@@ -161,3 +162,11 @@
 //     }
 // }
 // console.log(guessWinner());
+
+
+// function returnSmth() {
+//     let firstArr = [1, 2, 3, 4, 5]
+//     let secondArr = [6, 7, 8, 9, 0]
+//     return `${firstArr},${secondArr}`
+// }
+// console.log(returnSmth());
