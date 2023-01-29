@@ -112,7 +112,7 @@
 //         console.log('Black');
 //     }
 // }
-// checkChess('a1')
+// checkChess('a2')
 
 // Task 12
 
@@ -142,18 +142,18 @@
 //         let randomY = Math.round(Math.random() * 20)
 //         French.push(randomY)
 //     }
-// 
+
 //     Belgia.forEach(playerX => {
 //         if (playerX % 2 !== 0) {
 //             counterBelgia++
 //         }
 //     })
-// 
+
 //     French.forEach(playerY => {
 //         if (playerY % 2 !== 0) {
 //             counterFrench++
 //         }
-// 
+
 //     })
 //     if (counterBelgia > counterFrench) {
 //         return `Winner Belgia\nGols - ${counterBelgia}`

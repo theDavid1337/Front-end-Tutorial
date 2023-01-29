@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.wrapper {
+    width: 300px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0px 22px 40px #0000001a;
+    padding: 30px;
+}
+
+.big {
+    font-size: 32px;
+}
+
+.small {
+    font-size: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+
+a {
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.sign_in_btn {
+    width: 100%;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.continue {
+    width: 100%;
+    background: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 10px 15px;
+}
